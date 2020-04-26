@@ -2,13 +2,18 @@ h1, h2, h3, h4, h5, p {
   color: #ececec;
 }
 
+h1{
+  font-family: 'Oleo Script', cursive;
+  font-size: 5rem;
+}
+
 td {
   text-align: left;
   padding: 0 50px 0 50px;
 }
 
 hr {
-    border-color: grey;
+    border-color: #bae7ff;
     border-style: none;
     border-top-style: dotted;
     border-width: 7px;
@@ -22,6 +27,11 @@ hr {
   height: 100vh;
 }
 
+.navbar-brand{
+  position: relative;
+  left: 1%;
+}
+
 .nav-custom {
   background-color: #204051;
   width: 100vw;
@@ -29,7 +39,7 @@ hr {
 
 .directory {
   position: absolute;
-  right: 5%;
+  right: 1%;
 }
 
 .nav-item {
@@ -52,6 +62,7 @@ hr {
   padding-top: 25px;
   font-style: italic;
   letter-spacing: 0.1rem;
+  opacity: 70%;
 }
 
 .intro {
